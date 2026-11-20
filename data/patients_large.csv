@@ -1,0 +1,403 @@
+# Synthetic Nota Hospital ER patients, made by tools/generate_data.cpp (seed 201).
+# All names and records are made up. Some name + age pairs repeat with different dates of birth.
+name,age,dob,condition,ailment,arrival_day,arrival_time,time_limit_min
+Priya Okoye,57,1969-11-07,1,Minor cut,1,06:00,335
+Amir Aguilar,36,1990-05-12,9,Head injury,1,06:30,15
+Hana Larsen,46,1980-10-08,3,Migraine,1,06:30,180
+Mateo Lambert,88,1938-08-10,8,Head injury,1,07:00,60
+Fatima Barnes,51,1975-02-05,2,Ear infection,1,08:00,245
+Victor Takahashi,89,1937-11-13,3,Ear infection,1,08:00,215
+Jasper Tanaka,47,1979-11-16,8,Appendicitis,1,08:00,50
+Bianca Underwood,45,1981-02-23,6,Broken wrist,1,08:15,95
+Kai Chaudhry,74,1952-10-10,1,Sore throat,1,08:15,415
+Adrian Mahoney,4,2022-02-08,2,Sprained ankle,1,08:15,270
+Jin Vasquez,90,1936-06-01,3,Migraine,1,08:30,165
+Olivia Gallagher,28,1998-05-07,8,Asthma attack,1,08:30,40
+Leila Ibrahim,53,1973-01-01,6,Broken wrist,1,08:30,95
+Ana Lambert,4,2022-02-16,6,Deep laceration,1,08:30,75
+Rafael Abbott,19,2007-09-17,2,Rash,1,08:30,350
+Gabriel Okoye,62,1964-07-24,3,Ear infection,1,09:00,220
+Olivia Ellis,18,2008-06-02,3,Back pain,1,09:15,235
+Tariq Nakamura,74,1952-08-02,3,Migraine,1,09:30,225
+Quinn Sandoval,25,2001-04-10,1,Minor cut,1,09:30,340
+Uma Young,58,1968-07-06,5,Broken wrist,1,09:30,110
+Victor Chaudhry,35,1991-11-25,9,Severe bleeding,1,10:15,20
+Beth Delgado,33,1993-06-25,9,Overdose,1,10:30,15
+Ana Xu,45,1981-07-25,7,Head injury,1,10:30,35
+Reese Jensen,14,2012-06-14,1,Sore throat,1,10:30,360
+Evan Delgado,31,1995-09-17,3,Migraine,1,10:45,175
+Ana Owens,21,2005-02-27,7,Asthma attack,1,11:00,30
+Eli Young,80,1946-12-21,5,Deep laceration,1,11:00,100
+Eli Foster,27,1999-08-01,0,Minor cut,1,11:30,440
+Adrian Xu,67,1959-09-10,1,Minor cut,1,11:30,285
+Caleb Chaudhry,29,1997-02-22,2,Migraine,1,11:30,445
+Wen Banerjee,12,2014-08-22,1,Cold symptoms,1,11:45,475
+Wen Delgado,55,1971-02-13,6,Asthma attack,1,11:45,80
+Andre Okoye,28,1998-06-17,4,High fever,1,12:00,145
+Uma Young,22,2004-01-07,8,Chest pain,1,12:00,40
+Jasper Zimmerman,18,2008-11-19,4,Deep laceration,1,12:15,225
+Kai Okoye,68,1958-06-04,4,High fever,1,12:15,155
+Carlos Owens,4,2022-12-21,4,Broken wrist,1,12:15,150
+Olivia Larsen,67,1959-08-06,3,High fever,1,12:15,160
+Mei Dawson,69,1957-05-26,8,Appendicitis,1,12:30,45
+Wen Reyes,28,1998-08-24,7,Allergic reaction,1,12:45,55
+Dante Banerjee,63,1963-10-11,6,Allergic reaction,1,13:00,65
+Tariq Quintero,15,2011-08-27,0,Minor cut,1,13:15,470
+Uma Castillo,6,2020-11-26,3,High fever,1,13:15,130
+Caleb Xu,82,1944-10-02,1,Minor cut,1,13:30,360
+Caleb Hamid,87,1939-08-06,3,High fever,1,13:30,210
+Beth Shah,1,2025-04-09,4,Kidney stone,1,13:30,220
+Priya Morales,8,2018-08-24,5,Deep laceration,1,13:30,60
+Holly Hamid,46,1980-05-15,6,Allergic reaction,1,13:30,70
+Bianca Ibrahim,35,1991-05-08,2,Sore throat,1,13:30,240
+Evan Sandoval,91,1935-09-08,2,Sore throat,1,13:30,270
+Carmen Dawson,15,2011-09-09,5,Fall injury,1,13:30,115
+Fatima Vasquez,75,1951-07-12,4,Broken wrist,1,13:45,130
+Jasper Takahashi,88,1938-04-23,8,Head injury,1,13:45,50
+Carmen Novak,49,1977-06-14,2,Minor cut,1,14:15,325
+Yusuf Delgado,83,1943-01-21,5,Broken wrist,1,14:15,60
+Amir Okoye,47,1979-02-04,4,High fever,1,14:15,175
+Sana Shah,43,1983-09-17,10,Stroke symptoms,1,14:30,20
+Bianca Novak,42,1984-04-01,6,Appendicitis,1,14:30,100
+Bianca Delgado,15,2011-12-14,3,Sprained ankle,1,14:45,220
+Mei Ibrahim,87,1939-12-02,5,Broken wrist,1,14:45,95
+Quinn Jensen,91,1935-08-15,6,Deep laceration,1,15:00,100
+Aaliyah Tanaka,49,1977-11-19,7,Head injury,1,15:00,30
+Greg Walker,8,2018-08-01,8,Chest pain,1,15:15,50
+Wen Larsen,31,1995-01-25,5,Fall injury,1,15:30,105
+Carlos Ellis,47,1979-11-28,2,Rash,1,15:30,275
+Julia Takahashi,33,1993-09-14,1,Minor cut,1,15:45,330
+Dina Rahman,51,1975-09-21,10,Stroke symptoms,1,15:45,20
+Ivan Foster,81,1945-12-11,3,High fever,1,16:00,135
+Reese Larsen,64,1962-10-13,6,Asthma attack,1,16:00,70
+Wen Larsen,45,1981-03-26,9,Head injury,1,16:00,20
+Holly Sandoval,30,1996-06-25,0,Rash,1,16:00,340
+Greg Gallagher,49,1977-08-18,7,Appendicitis,1,16:00,45
+Evan Underwood,70,1956-01-01,4,Sprained ankle,1,16:15,225
+Holly Shah,83,1943-03-09,3,Ear infection,1,16:15,185
+Uma Castillo,65,1961-02-22,4,Back pain,1,17:00,205
+Mei Reyes,87,1939-08-01,0,Cold symptoms,1,17:15,285
+Dante Xu,45,1981-09-27,5,High fever,1,17:15,80
+Aaliyah Takahashi,20,2006-01-23,2,Rash,1,17:15,345
+Reese Okoye,52,1974-12-21,3,Back pain,1,17:30,145
+Uma Sandoval,49,1977-09-27,5,Allergic reaction,1,17:30,115
+Leila Owens,65,1961-02-19,2,Rash,1,17:30,460
+Wen Takahashi,83,1943-04-20,1,Rash,1,17:30,260
+Gabriel Novak,58,1968-11-10,10,Cardiac arrest,1,17:30,30
+Quinn Rahman,57,1969-06-17,2,Minor cut,1,17:45,445
+Olivia Jensen,75,1951-01-07,5,High fever,1,17:45,70
+Beth Sandoval,70,1956-01-24,6,Kidney stone,1,18:00,110
+Mateo Mahoney,59,1967-10-09,3,High fever,1,18:00,135
+Greg Rahman,62,1964-01-11,1,Cold symptoms,1,18:00,475
+Wen Sandoval,15,2011-11-13,8,Chest pain,1,18:00,55
+Uma Okoye,62,1964-09-25,4,High fever,1,18:00,140
+Julia Chaudhry,25,2001-11-03,0,Minor cut,1,18:15,300
+Alana Delgado,83,1943-09-22,5,Food poisoning - injury,1,18:30,70
+Carmen Morales,17,2009-06-06,5,Food poisoning - injury,1,18:30,75
+Dante Foster,17,2009-10-05,9,Food poisoning - injury,1,18:30,25
+Uma Foster,21,2005-04-01,7,Food poisoning - injury,1,18:30,55
+Jin Abbott,86,1940-01-07,3,High fever,1,18:30,195
+Julia Jensen,59,1967-09-24,6,Allergic reaction,1,18:30,95
+Farah Banerjee,74,1952-06-07,5,Asthma attack,1,18:45,100
+Amir Underwood,11,2015-03-15,3,Back pain,1,18:45,190
+Ivan Underwood,43,1983-04-14,5,Asthma attack,1,19:00,90
+Mei Dawson,69,1957-12-09,3,Sprained ankle,1,19:30,165
+Amir Vasquez,33,1993-12-04,4,High fever,1,19:45,150
+Bianca Gallagher,89,1937-01-13,7,Asthma attack,1,19:45,50
+Dina Larsen,15,2011-04-14,4,Ear infection,1,20:00,225
+Chloe Aguilar,11,2015-03-21,3,Ear infection,1,20:00,190
+Hana Fischer,17,2009-11-24,2,Migraine,1,20:00,430
+Rafael Okoye,34,1992-12-06,3,Back pain,1,20:15,220
+Alana Zimmerman,17,2009-06-16,0,Cold symptoms,1,20:30,390
+Dina Xu,52,1974-10-04,0,Sore throat,1,20:30,340
+Aaliyah Young,1,2025-03-11,7,Chest pain,1,20:30,40
+Imani Pham,3,2023-06-18,1,Rash,1,20:45,475
+Carmen Sandoval,82,1944-04-23,1,Cold symptoms,1,20:45,285
+Olivia Pham,49,1977-01-14,5,Allergic reaction,1,20:45,65
+Victor Hughes,21,2005-06-13,6,Allergic reaction,1,21:00,95
+Mei Ibrahim,8,2018-02-15,9,Severe bleeding,1,21:00,15
+Imani Aguilar,8,2018-02-02,2,Back pain,1,21:15,300
+Zara Sandoval,52,1974-02-17,6,Deep laceration,1,21:15,85
+Keisha Morales,11,2015-06-01,1,Rash,1,21:15,440
+Aaliyah Ellis,82,1944-04-22,4,Car accident - injury,1,21:30,160
+Kai Banerjee,79,1947-02-11,7,Car accident - injury,1,21:30,45
+Aaliyah Vasquez,53,1973-12-25,9,Car accident - injury,1,21:30,20
+Uma Reyes,36,1990-08-22,4,Car accident - injury,1,21:30,155
+Dante Castillo,24,2002-04-04,10,Cardiac arrest,1,21:45,15
+Felix Rahman,81,1945-10-10,7,Fall injury,1,21:45,50
+Mateo Rahman,18,2008-08-11,8,Overdose,1,21:45,55
+Aaliyah Ellis,82,1944-02-14,1,Sore throat,1,22:00,475
+Quinn Novak,45,1981-02-04,8,Appendicitis,1,22:00,55
+Keisha Abbott,24,2002-06-10,6,Allergic reaction,1,22:00,70
+Victor Pham,76,1950-08-09,7,Allergic reaction,1,22:00,35
+Adrian Shah,53,1973-07-21,5,Kidney stone,1,22:30,95
+Elena Pham,42,1984-05-06,0,Rash,1,22:30,340
+Zara Pham,85,1941-03-01,7,Asthma attack,1,22:45,60
+Victor Barnes,90,1936-12-06,4,Back pain,1,22:45,135
+Amir Barnes,68,1958-01-24,3,Ear infection,1,23:30,155
+Julia Castillo,2,2024-09-02,4,Back pain,1,23:45,170
+Uma Nakamura,15,2011-04-16,2,Migraine,2,01:30,450
+Holly Young,42,1984-12-01,3,Back pain,2,02:00,135
+Evan Hughes,10,2016-11-22,2,Migraine,2,02:15,340
+Beth Foster,21,2005-01-14,5,Asthma attack,2,03:00,65
+Dante Khan,42,1984-08-04,0,Cold symptoms,2,04:30,250
+Carlos Mahoney,29,1997-01-14,2,Sprained ankle,2,05:00,340
+Beth Chaudhry,65,1961-06-05,4,Broken wrist,2,05:45,185
+Evan Abbott,27,1999-08-21,4,Broken wrist,2,06:00,210
+Leila Rahman,25,2001-12-16,1,Cold symptoms,2,06:00,430
+Zara Jensen,25,2001-09-23,6,Asthma attack,2,07:30,60
+Mateo Lambert,88,1938-04-10,6,Deep laceration,2,08:00,105
+Gabriel Lambert,56,1970-02-16,2,Ear infection,2,08:00,330
+Jasper Tanaka,71,1955-03-02,0,Minor cut,2,08:00,340
+Reese Nakamura,13,2013-03-26,1,Rash,2,08:00,350
+Fatima Takahashi,48,1978-03-17,2,Back pain,2,08:00,285
+Zara Hamid,16,2010-12-09,6,Fall injury,2,08:15,105
+Evan Abbott,27,1999-03-05,6,Fall injury,2,08:30,90
+Zara Castillo,65,1961-09-14,10,Stroke symptoms,2,08:30,15
+Ivan Castillo,32,1994-08-22,2,Ear infection,2,08:30,285
+Greg Gallagher,65,1961-05-02,6,Appendicitis,2,08:45,85
+Uma Walker,33,1993-07-05,6,Allergic reaction,2,09:00,80
+Tariq Tanaka,29,1997-04-02,0,Rash,2,09:15,365
+Zara Sandoval,52,1974-03-18,4,Sprained ankle,2,09:15,175
+Mateo Pham,51,1975-11-21,8,Appendicitis,2,09:15,55
+Farah Delgado,40,1986-04-19,1,Sore throat,2,09:15,365
+Tariq Khan,51,1975-12-08,6,Broken wrist,2,09:30,70
+Julia Jensen,59,1967-12-17,2,Rash,2,09:30,410
+Jasper Zimmerman,4,2022-08-11,10,Severe bleeding,2,09:30,20
+Jasper Sandoval,6,2020-02-28,1,Minor cut,2,09:30,270
+Evan Walker,41,1985-10-28,2,Rash,2,09:45,385
+Dina Mahoney,58,1968-11-22,8,Severe bleeding,2,10:00,40
+Imani Dawson,50,1976-10-21,4,Deep laceration,2,10:45,210
+Keisha Walker,48,1978-07-15,10,Severe bleeding,2,10:45,20
+Farah Ibrahim,33,1993-05-01,2,Rash,2,10:45,370
+Alana Tanaka,11,2015-05-07,2,Migraine,2,11:00,435
+Adrian Mahoney,55,1971-12-10,2,Minor cut,2,11:00,365
+Keisha Shah,28,1998-06-01,1,Cold symptoms,2,11:00,395
+Ian Vasquez,72,1954-01-24,9,Stroke symptoms,2,11:15,25
+Aiden Xu,46,1980-03-21,7,Food poisoning - injury,2,11:30,30
+Fatima Foster,77,1949-04-02,9,Food poisoning - injury,2,11:30,25
+Hana Foster,25,2001-10-06,3,Back pain,2,11:30,195
+Wen Takahashi,23,2003-12-16,4,Deep laceration,2,11:45,210
+Mateo Reyes,34,1992-09-13,4,Deep laceration,2,12:00,220
+Ivan Underwood,43,1983-12-22,3,Ear infection,2,12:15,220
+Caleb Underwood,48,1978-10-07,7,Allergic reaction,2,12:15,50
+Jin Abbott,86,1940-03-13,5,Allergic reaction,2,12:15,115
+Victor Reyes,34,1992-12-17,6,Kidney stone,2,12:30,95
+Sana Larsen,49,1977-01-20,4,High fever,2,12:30,235
+Victor Khan,25,2001-03-20,5,Bus collision - injury,2,12:45,60
+Quinn Rahman,81,1945-09-09,3,Bus collision - injury,2,12:45,145
+Dante Barnes,2,2024-09-17,5,Bus collision - injury,2,12:45,110
+Jasper Mahoney,48,1978-07-11,7,Bus collision - injury,2,12:45,55
+Noah Xu,35,1991-01-27,3,Migraine,2,13:00,120
+Eli Young,80,1946-04-18,8,Appendicitis,2,13:15,30
+Aaliyah Shah,58,1968-02-02,2,Ear infection,2,13:15,440
+Amir Castillo,39,1987-03-02,1,Rash,2,13:45,345
+Tariq Jensen,50,1976-11-19,2,Sprained ankle,2,13:45,430
+Fatima Dawson,84,1942-05-01,5,Kitchen fire - injury,2,14:00,85
+Keisha Reyes,74,1952-11-28,7,Kitchen fire - injury,2,14:00,45
+Elena Sandoval,53,1973-06-24,6,Kitchen fire - injury,2,14:00,70
+Carmen Sandoval,82,1944-10-19,7,Car accident - injury,2,14:15,30
+Mateo Foster,86,1940-04-21,7,Car accident - injury,2,14:15,30
+Aaliyah Quintero,2,2024-09-04,8,Car accident - injury,2,14:15,50
+Elena Nakamura,66,1960-11-11,0,Minor cut,2,14:30,460
+Beth Yamada,59,1967-07-09,6,Fall injury,2,14:30,80
+Julia Hamid,50,1976-04-02,3,Ear infection,2,14:30,175
+Bianca Shah,88,1938-09-15,5,Kidney stone,2,14:30,90
+Felix Xu,87,1939-01-14,5,Deep laceration,2,14:30,60
+Hana Pham,77,1949-04-08,3,Migraine,2,14:45,155
+Mei Sandoval,62,1964-04-04,7,Head injury,2,14:45,55
+Farah Aguilar,64,1962-10-07,5,Fall injury,2,15:00,75
+Fatima Vasquez,41,1985-01-17,6,Asthma attack,2,15:00,85
+Greg Gallagher,88,1938-01-19,0,Minor cut,2,15:15,370
+Quinn Khan,22,2004-04-23,8,Severe bleeding,2,15:15,55
+Noah Lambert,64,1962-03-17,1,Cold symptoms,2,15:30,300
+Aaliyah Quintero,82,1944-08-11,3,High fever,2,15:30,195
+Alana Takahashi,88,1938-04-18,5,Kidney stone,2,16:15,65
+Elena Morales,47,1979-07-26,0,Sore throat,2,16:15,465
+Bianca Lambert,85,1941-01-17,3,High fever,2,16:30,165
+Sana Hughes,56,1970-12-23,5,Allergic reaction,2,16:30,85
+Noah Abbott,4,2022-07-25,6,Fall injury,2,16:30,105
+Eli Walker,68,1958-11-01,8,Severe bleeding,2,16:30,30
+Wen Larsen,45,1981-04-04,3,High fever,2,16:45,130
+Alana Chaudhry,66,1960-04-16,9,Chest pain,2,16:45,25
+Caleb Young,71,1955-05-06,5,Deep laceration,2,17:00,65
+Ian Takahashi,81,1945-07-26,7,Asthma attack,2,17:00,45
+Jin Foster,32,1994-03-03,4,Deep laceration,2,17:00,165
+Sana Owens,78,1948-08-09,0,Rash,2,17:15,440
+Leila Tanaka,9,2017-03-02,4,Broken wrist,2,17:30,195
+Chloe Lambert,16,2010-10-13,2,Sprained ankle,2,17:30,390
+Fatima Castillo,38,1988-06-12,3,Sprained ankle,2,17:30,145
+Dante Khan,76,1950-02-24,4,Migraine,2,17:45,185
+Hana Pham,49,1977-07-03,2,Migraine,2,17:45,285
+Farah Hughes,24,2002-06-28,9,Severe bleeding,2,18:00,15
+Ian Gallagher,61,1965-09-23,5,High fever,2,18:00,100
+Felix Underwood,79,1947-11-25,3,Migraine,2,18:00,120
+Fatima Takahashi,41,1985-07-21,5,Allergic reaction,2,18:00,70
+Rafael Aguilar,35,1991-03-09,7,Asthma attack,2,18:15,40
+Priya Sandoval,58,1968-05-23,6,Kidney stone,2,18:30,80
+Ana Dawson,8,2018-06-10,7,Fall injury,2,18:45,55
+Ana Morales,64,1962-06-07,5,Deep laceration,2,18:45,75
+Quinn Khan,22,2004-04-10,4,Back pain,2,18:45,170
+Dante Ellis,63,1963-09-04,3,Migraine,2,19:00,235
+Dina Quintero,70,1956-12-19,7,Allergic reaction,2,19:00,50
+Tariq Xu,64,1962-03-19,0,Cold symptoms,2,19:00,310
+Holly Sandoval,24,2002-02-02,7,Appendicitis,2,19:15,50
+Carmen Young,2,2024-01-25,1,Rash,2,19:15,365
+Nadia Zimmerman,16,2010-09-10,4,High fever,2,19:30,215
+Aaliyah Lambert,39,1987-01-18,7,Asthma attack,2,19:30,30
+Holly Aguilar,75,1951-02-14,1,Rash,2,19:45,370
+Carmen Novak,49,1977-12-04,3,Sprained ankle,2,19:45,220
+Olivia Barnes,52,1974-10-21,0,Rash,2,19:45,310
+Alana Jensen,22,2004-07-17,4,Migraine,2,20:00,160
+Olivia Zimmerman,60,1966-09-18,0,Rash,2,20:15,270
+Sana Jensen,77,1949-04-01,0,Minor cut,2,20:15,285
+Greg Larsen,56,1970-07-23,5,Allergic reaction,2,20:30,75
+Jasper Aguilar,4,2022-04-23,0,Rash,2,20:30,450
+Ana Zimmerman,68,1958-03-11,1,Rash,2,20:45,260
+Beth Ellis,23,2003-07-19,3,High fever,2,21:00,180
+Fatima Banerjee,61,1965-01-17,4,High fever,2,21:00,170
+Andre Vasquez,70,1956-07-17,0,Cold symptoms,2,21:00,445
+Carlos Takahashi,5,2021-10-24,3,Back pain,2,21:15,235
+Mei Vasquez,50,1976-08-06,1,Minor cut,2,21:15,270
+Greg Gallagher,65,1961-07-10,8,Asthma attack,2,21:30,40
+Carlos Banerjee,18,2008-04-22,5,Allergic reaction,2,21:45,115
+Andre Banerjee,73,1953-08-11,3,Migraine,2,21:45,175
+Elena Reyes,43,1983-05-21,5,Broken wrist,2,22:00,90
+Nadia Nakamura,63,1963-04-18,6,Asthma attack,2,22:45,120
+Caleb Khan,44,1982-09-13,0,Sore throat,2,23:00,460
+Farah Larsen,72,1954-08-05,2,Ear infection,2,23:00,345
+Mateo Owens,90,1936-04-02,6,Kidney stone,2,23:00,60
+Ivan Zimmerman,79,1947-10-13,6,Broken wrist,2,23:15,60
+Bianca Chaudhry,71,1955-09-05,4,Sprained ankle,2,23:15,155
+Dina Nakamura,62,1964-09-24,2,Minor cut,2,23:30,290
+Kai Reyes,69,1957-08-18,8,Chest pain,2,23:45,30
+Tariq Mahoney,20,2006-01-17,3,Ear infection,2,23:45,230
+Noah Rahman,73,1953-08-04,4,Migraine,2,23:45,175
+Aiden Okoye,57,1969-12-04,6,Appendicitis,3,01:45,110
+Bianca Nakamura,2,2024-07-05,10,Severe bleeding,3,04:00,25
+Amir Mahoney,40,1986-12-03,3,Back pain,3,05:15,170
+Felix Young,15,2011-02-10,4,Kidney stone,3,06:15,170
+Adrian Pham,17,2009-01-08,3,Sprained ankle,3,06:15,125
+Ivan Delgado,61,1965-03-08,2,Back pain,3,07:00,300
+Aaliyah Khan,73,1953-11-15,1,Rash,3,08:00,395
+Andre Hamid,72,1954-12-09,0,Cold symptoms,3,08:00,390
+Julia Foster,23,2003-03-07,6,Appendicitis,3,08:00,95
+Aaliyah Quintero,82,1944-06-22,5,Asthma attack,3,08:30,90
+Jin Takahashi,25,2001-06-14,8,Asthma attack,3,08:45,45
+Farah Abbott,11,2015-01-10,2,Sore throat,3,08:45,330
+Keisha Pham,27,1999-03-02,2,Ear infection,3,09:00,315
+Ivan Zimmerman,50,1976-10-09,5,Broken wrist,3,09:00,75
+Amir Vasquez,33,1993-04-21,8,Appendicitis,3,09:15,40
+Evan Underwood,70,1956-02-06,8,Severe bleeding,3,09:15,35
+Beth Hughes,22,2004-11-21,8,Food poisoning - injury,3,09:30,45
+Ian Larsen,12,2014-07-14,5,Food poisoning - injury,3,09:30,75
+Noah Gallagher,5,2021-02-15,2,Sore throat,3,09:30,320
+Fatima Pham,15,2011-04-22,0,Rash,3,09:30,330
+Bianca Nakamura,90,1936-08-14,4,Back pain,3,09:30,225
+Dante Castillo,24,2002-05-22,2,Sprained ankle,3,09:45,275
+Holly Okoye,13,2013-07-11,5,Allergic reaction,3,09:45,60
+Evan Barnes,8,2018-03-11,8,Asthma attack,3,10:00,40
+Caleb Lambert,72,1954-04-05,6,Kidney stone,3,10:00,90
+Bianca Banerjee,90,1936-01-06,4,Deep laceration,3,10:00,210
+Imani Jensen,13,2013-01-23,5,Broken wrist,3,10:15,75
+Wen Mahoney,11,2015-06-27,4,Ear infection,3,10:15,160
+Amir Lambert,68,1958-09-07,6,Appendicitis,3,10:15,65
+Eli Yamada,45,1981-01-20,4,High fever,3,10:30,150
+Hana Jensen,66,1960-11-07,3,Migraine,3,10:30,205
+Aaliyah Sandoval,80,1946-03-11,0,Rash,3,10:45,275
+Evan Mahoney,61,1965-08-21,0,Rash,3,11:00,400
+Dante Pham,63,1963-02-01,4,Deep laceration,3,11:00,145
+Victor Walker,56,1970-02-06,5,Kidney stone,3,11:15,115
+Ivan Dawson,61,1965-04-27,3,Ear infection,3,11:15,185
+Uma Underwood,2,2024-06-06,6,Kidney stone,3,11:30,80
+Noah Nakamura,73,1953-12-04,6,Kidney stone,3,11:30,65
+Dina Chaudhry,45,1981-11-06,1,Rash,3,11:30,480
+Adrian Banerjee,27,1999-01-12,6,Appendicitis,3,11:30,60
+Kai Abbott,11,2015-03-24,4,Back pain,3,11:30,225
+Tariq Novak,22,2004-12-28,1,Sore throat,3,11:30,345
+Kai Pham,30,1996-02-09,1,Minor cut,3,11:45,300
+Gabriel Tanaka,10,2016-08-09,7,Chest pain,3,12:00,40
+Jasper Vasquez,35,1991-05-13,5,Kidney stone,3,12:00,80
+Beth Delgado,33,1993-01-11,3,Migraine,3,12:15,200
+Chloe Gallagher,8,2018-02-03,4,Back pain,3,12:15,225
+Ana Castillo,83,1943-03-07,4,Sprained ankle,3,12:30,185
+Elena Pham,42,1984-06-06,9,Head injury,3,12:30,25
+Sana Dawson,87,1939-06-21,7,Allergic reaction,3,13:00,35
+Julia Khan,62,1964-09-01,3,Ear infection,3,13:00,195
+Alana Underwood,27,1999-03-25,0,Minor cut,3,13:15,465
+Bianca Zimmerman,90,1936-09-12,6,Allergic reaction,3,13:15,110
+Julia Yamada,26,2000-08-15,6,Kidney stone,3,13:15,75
+Julia Young,80,1946-11-07,2,Sore throat,3,13:15,410
+Caleb Okoye,92,1934-05-12,4,Back pain,3,13:30,145
+Noah Jensen,4,2022-02-16,7,Asthma attack,3,13:30,40
+Noah Abbott,4,2022-04-18,1,Rash,3,13:45,455
+Dante Owens,16,2010-04-16,10,Overdose,3,14:00,20
+Ian Larsen,12,2014-08-25,9,Car accident - injury,3,14:15,25
+Alana Mahoney,14,2012-07-19,5,Car accident - injury,3,14:15,70
+Ana Foster,46,1980-09-06,6,Car accident - injury,3,14:15,80
+Ana Castillo,83,1943-06-14,5,Car accident - injury,3,14:15,80
+Elena Morales,47,1979-01-13,6,Allergic reaction,3,14:15,110
+Rafael Morales,52,1974-09-06,3,Ear infection,3,15:00,205
+Wen Takahashi,8,2018-02-17,0,Cold symptoms,3,15:00,470
+Kai Pham,28,1998-12-07,5,Asthma attack,3,15:15,110
+Caleb Morales,53,1973-11-19,1,Sore throat,3,15:15,240
+Bianca Quintero,92,1934-06-26,0,Cold symptoms,3,15:30,365
+Elena Vasquez,76,1950-04-26,2,Back pain,3,15:30,400
+Fatima Okoye,36,1990-11-21,2,Rash,3,15:45,435
+Beth Fischer,26,2000-12-09,4,Deep laceration,3,16:15,160
+Noah Abbott,28,1998-12-11,7,Fall injury,3,16:15,35
+Evan Okoye,75,1951-11-10,0,Rash,3,16:45,370
+Noah Nakamura,48,1978-01-20,4,Back pain,3,16:45,205
+Elena Sandoval,53,1973-02-05,1,Minor cut,3,17:15,245
+Greg Hughes,89,1937-09-20,4,Deep laceration,3,17:15,155
+Bianca Okoye,47,1979-04-07,6,Asthma attack,3,17:30,115
+Wen Fischer,26,2000-07-16,4,Sprained ankle,3,17:30,195
+Mateo Abbott,89,1937-07-28,6,Kidney stone,3,17:30,115
+Mei Okoye,10,2016-04-27,9,Head injury,3,17:45,20
+Aiden Dawson,17,2009-03-22,5,Broken wrist,3,18:00,110
+Chloe Sandoval,50,1976-11-06,10,Cardiac arrest,3,18:15,25
+Mei Castillo,82,1944-11-01,2,Sore throat,3,18:30,360
+Hana Abbott,19,2007-09-26,5,Asthma attack,3,18:45,60
+Felix Ellis,77,1949-02-07,4,Back pain,3,18:45,180
+Farah Foster,92,1934-08-17,6,Deep laceration,3,18:45,95
+Keisha Ibrahim,3,2023-11-26,5,Deep laceration,3,19:00,110
+Victor Mahoney,17,2009-07-24,6,Broken wrist,3,19:00,80
+Victor Takahashi,66,1960-11-11,4,Sprained ankle,3,19:00,225
+Noah Underwood,34,1992-08-07,4,High fever,3,19:15,240
+Amir Mahoney,58,1968-09-20,5,Deep laceration,3,19:30,70
+Holly Shah,83,1943-04-10,3,High fever,3,19:45,195
+Beth Fischer,26,2000-08-21,4,Bus collision - injury,3,20:00,145
+Jin Jensen,18,2008-06-04,4,Bus collision - injury,3,20:00,195
+Chloe Takahashi,69,1957-07-26,6,Broken wrist,3,20:00,115
+Reese Hughes,77,1949-08-08,3,Sprained ankle,3,20:00,230
+Zara Castillo,65,1961-06-25,7,Gym accident - injury,3,20:15,45
+Zara Tanaka,46,1980-03-09,8,Gym accident - injury,3,20:15,30
+Greg Larsen,56,1970-10-04,9,Gym accident - injury,3,20:15,25
+Mei Lambert,45,1981-02-04,4,Migraine,3,20:15,145
+Keisha Quintero,17,2009-08-14,0,Rash,3,20:15,280
+Aaliyah Dawson,83,1943-06-02,7,Allergic reaction,3,20:30,50
+Leila Young,53,1973-11-19,6,Fall injury,3,20:30,70
+Priya Owens,91,1935-09-21,0,Sore throat,3,20:30,380
+Dina Fischer,85,1941-01-24,4,Broken wrist,3,20:45,130
+Dante Barnes,66,1960-08-06,4,Back pain,3,21:00,165
+Tariq Fischer,72,1954-03-18,1,Minor cut,3,21:00,365
+Rafael Jensen,39,1987-11-25,8,Chest pain,3,21:00,60
+Leila Tanaka,55,1971-12-19,6,Broken wrist,3,21:15,80
+Tariq Walker,81,1945-04-06,1,Minor cut,3,21:15,380
+Wen Walker,4,2022-09-23,4,Ear infection,3,21:15,165
+Imani Sandoval,78,1948-06-07,3,Migraine,3,21:15,215
+Fatima Dawson,84,1942-09-02,4,Sprained ankle,3,21:30,190
+Olivia Rahman,52,1974-02-21,4,Ear infection,3,21:30,180
+Nadia Gallagher,65,1961-04-26,3,Migraine,3,22:00,140
+Uma Pham,12,2014-01-05,0,Rash,3,22:30,455
+Dina Underwood,9,2017-12-21,2,Migraine,3,22:30,465
+Imani Young,60,1966-02-24,9,Overdose,3,22:45,20
+Jin Pham,30,1996-02-15,3,Migraine,3,22:45,170
+Olivia Sandoval,43,1983-10-22,9,Severe bleeding,3,22:45,25
+Bianca Owens,3,2023-06-25,8,Chest pain,3,23:15,55
+Ana Ibrahim,82,1944-12-14,8,Chest pain,3,23:30,55
+Andre Owens,42,1984-01-26,8,Appendicitis,3,23:30,55
+Fatima Abbott,51,1975-01-25,1,Rash,3,23:30,265
+Felix Quintero,89,1937-11-05,4,Ear infection,3,23:45,125
+Tariq Hamid,74,1952-01-14,7,Chest pain,3,23:45,50
+Aaliyah Young,1,2025-01-18,3,Sprained ankle,3,23:45,205

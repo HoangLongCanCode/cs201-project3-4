@@ -1,0 +1,19 @@
+# Synthetic Nota Hospital doctors, made by tools/generate_data.cpp (seed 201).
+# All names and records are made up.
+name,age,dob,skill,shift_start,shift_end
+Mei Castillo,56,1970-08-24,9,06:00,18:00
+Tariq Fischer,60,1966-12-04,1,08:00,16:00
+Farah Chaudhry,36,1990-03-21,7,10:00,22:00
+Bianca Yamada,31,1995-08-13,2,14:00,02:00
+Imani Barnes,62,1964-11-15,9,16:00,00:00
+Eli Novak,59,1967-05-22,3,18:00,06:00
+Yusuf Mahoney,60,1966-05-22,2,22:00,10:00
+Ian Vasquez,54,1972-07-28,4,00:00,08:00
+Noah Morales,48,1978-03-27,9,06:00,14:00
+Carmen Ibrahim,40,1986-09-03,6,08:00,16:00
+Wen Hughes,58,1968-09-05,1,10:00,22:00
+Farah Owens,48,1978-09-09,8,14:00,02:00
+Hana Dawson,65,1961-09-28,8,16:00,00:00
+Evan Tanaka,50,1976-08-09,2,18:00,02:00
+Yusuf Yamada,30,1996-09-21,10,22:00,06:00
+Tariq Underwood,57,1969-06-03,5,00:00,12:00

@@ -8,7 +8,8 @@
 //     the B-Trees, and a live drawing of both B-Trees level by level
 //
 // Controls: Space/N = next tick, H = +1 hour, A = auto-play, F = search box,
-//           Tab = switch lookup/B-Tree view, mouse wheel = scroll a panel.
+//           Up/Down = faster/slower auto-play, Tab = switch lookup/B-Tree view,
+//           mouse wheel = scroll a panel.
 // Works with SFML 2.5+ and SFML 3.x.
 #pragma once
 
@@ -82,6 +83,7 @@ private:
     // State
     Tab tab_ = Tab::Lookup;
     bool autoPlay_ = false;
+    float autoSeconds_ = 0.5f;   // seconds between ticks while auto-play is on (Up/Down keys)
     sf::Clock autoClock_;
     sf::Clock blinkClock_;
     std::string query_;

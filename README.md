@@ -22,6 +22,8 @@ You need a C++17 compiler and `make`. Only the GUI needs **SFML** (2.5+ or 3.x).
 | `make run` | builds and runs the GUI |
 | `make cli` | builds the console version (`./hospital_cli`), no SFML needed |
 | `make test` | builds and runs the test suite (`./hospital_tests`) |
+| `make data` | generates the larger synthetic dataset (`data/doctors_large.csv`, `data/patients_large.csv`) |
+| `make run-large` | generates that dataset if needed and runs the GUI on it |
 | `make clean` | removes all build output |
 
 Run the programs from the project folder so they can find `data/`.
@@ -116,7 +118,8 @@ The window has five areas:
 
 - **Header:** the clock, live statistics (waiting, in treatment, discharged, went critical,
   average wait, doctors on shift) and the buttons **Next tick [Space]**, **+1 hour [H]** and
-  **Auto [A]** (one tick every half second).
+  **Auto [A]** (one tick every half second by default; **Up/Down** make auto-play faster or
+  slower, from 0.1 to 2.0 seconds per tick, and the button shows the current speed).
 - **Waiting room:** waiting patients in the exact order they will be seen. Each has a
   condition badge colored from **green (0)** through amber to **red (10)**, plus how long
   they have waited and how long until they go critical. Critical rows are highlighted red.
@@ -184,7 +187,9 @@ include/   headers: BTree.h (template), PersonKey, Person, Patient, Doctor,
            Hospital, DataLoader, SimTime, Gui
 src/       implementation, main.cpp (GUI) and cli_main.cpp (console)
 tests/     test_main.cpp
-data/      doctors.csv, patients.csv (our own dataset, made up for this project)
+tools/     generate_data.cpp (synthetic data generator)
+data/      doctors.csv, patients.csv (our own dataset, made up for this project),
+           doctors_large.csv, patients_large.csv (generated, see below)
 Makefile
 UML.md     class diagram
 ```
@@ -196,3 +201,20 @@ UML.md     class diagram
 
 Dates are `YYYY-MM-DD`; times are `HH:MM`. Lines that start with `#` are comments. All
 names and records are fictional and were created by the team for this project.
+
+### Generating more data
+
+`make data` builds `tools/generate_data.cpp` and writes a larger made-up dataset. You can
+also run it yourself:
+
+```text
+./generate_data [seed] [doctors] [patients] [days] [out_dir]
+```
+
+The defaults are seed 201, 16 doctors, 400 patients, 3 days, and `data/`. The same seed always
+gives the same files. Shifts are spread around the clock, most patients are mild and a few
+are severe, sicker patients get shorter time limits, some patients arrive in groups, and some
+share a name and age with a different date of birth. Run the GUI on it with
+`make run-large`, or `./hospital data/doctors_large.csv data/patients_large.csv`. With the
+default settings all 400 patients are discharged by Day 4 06:00 and 12 go critical (average
+wait 35 minutes), so the waiting room fills up and the priority queue has real work to do.

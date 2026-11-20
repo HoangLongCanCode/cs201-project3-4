@@ -129,7 +129,10 @@ float boundsRight(const sf::FloatRect& r) {
 
 constexpr unsigned kWidth = 1240;
 constexpr unsigned kHeight = 720;
-constexpr float kAutoSecondsPerTick = 0.5f;
+constexpr float kAutoSecondsDefault = 0.5f;   // starting auto-play speed
+constexpr float kAutoSecondsMin = 0.1f;       // fastest
+constexpr float kAutoSecondsMax = 2.0f;       // slowest
+constexpr float kAutoSecondsStep = 0.1f;
 
 const sf::Color kBg(24, 26, 32);
 const sf::Color kPanel(36, 39, 48);
@@ -238,7 +241,7 @@ int HospitalGui::run() {
                 case InputEvent::Kind::Wheel: handleWheel(e.x, e.y, e.delta); break;
             }
         }
-        if (autoPlay_ && autoClock_.getElapsedTime().asSeconds() >= kAutoSecondsPerTick) {
+        if (autoPlay_ && autoClock_.getElapsedTime().asSeconds() >= autoSeconds_) {
             advance(1);
             autoClock_.restart();
         }
@@ -269,6 +272,9 @@ void HospitalGui::handleKey(sf::Keyboard::Key key) {
     }
     if (key == K::Space || key == K::N || key == K::Right) advance(1);
     else if (key == K::H) advance(simtime::kTicksPerHour);
+    // Up = faster auto-play, Down = slower (seconds between ticks)
+    else if (key == K::Up) autoSeconds_ = std::max(kAutoSecondsMin, autoSeconds_ - kAutoSecondsStep);
+    else if (key == K::Down) autoSeconds_ = std::min(kAutoSecondsMax, autoSeconds_ + kAutoSecondsStep);
     else if (key == K::A) {
         autoPlay_ = !autoPlay_;
         autoClock_.restart();
@@ -432,7 +438,10 @@ void HospitalGui::drawHeader() {
 
     drawButton(btnStep_, "Next tick  [Space]", false);
     drawButton(btnHour_, "+1 hour  [H]", false);
-    drawButton(btnAuto_, autoPlay_ ? "Auto: ON  [A]" : "Auto: off  [A]", autoPlay_);
+    // Show the current auto-play speed (seconds per tick) with one decimal.
+    const int tenths = static_cast<int>(autoSeconds_ * 10.f + 0.5f);
+    const std::string speed = std::to_string(tenths / 10) + "." + std::to_string(tenths % 10) + "s";
+    drawButton(btnAuto_, autoPlay_ ? "Auto: " + speed + " [A]" : "Auto: off  [A]", autoPlay_);
 }
 
 void HospitalGui::drawWaiting() {

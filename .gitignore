@@ -3,6 +3,7 @@ build/
 hospital
 hospital_cli
 hospital_tests
+generate_data
 *.exe
 *.o
 *.d
